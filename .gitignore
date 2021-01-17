@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+SignLanguageReader/.env
+SignLanguageReader/build
+SignLanguageReader/node_modules
+SignLanguageReader/.cfignore
+SignLanguageReader/manifest.yml
+Tensorflow/workspace/images
+Tensorflow/labelImg
+Tensorflow/models 
+Tensorflow/workspace/models/my_ssd_mobnet/train/events.out.tfevents.1610837463.AMORA.10744.1556.v2
