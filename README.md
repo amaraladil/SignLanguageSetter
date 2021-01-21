@@ -1,4 +1,4 @@
-#Sign Language Reader
+# Sign Language Reader
 
 This is created with the tensorflow library and Python. It manages to understand 5 different hand gestures and points out the accuracy with what each gesture is currently live on the webcam.
 
@@ -6,13 +6,13 @@ The website demo has some issues when converting it to support a website, python
 
 Currently has a Live Demo: [here](https://sign-language-reader.netlify.app/)
 
-###Requirements:
+### Requirements:
 
 > NPM @ Version -- latest
 > Tensorflow
 > Anaconda 3 @ Version -- 2019.07
 
-####To Run on your local python anaconda, run these code on Jupyter Notebook
+#### To Run on your local python anaconda, run these code on Jupyter Notebook
 
 Inside ModelTrainer.ipynb
 
@@ -30,25 +30,25 @@ CONFIG_PATH = MODEL_PATH+'/my_ssd_mobnet/pipeline.config'
 CHECKPOINT_PATH = MODEL_PATH+'/my_ssd_mobnet/'
 ```
 
-#####\# 4. Copy Pre-Model Config to Training Folder
+##### \# 4. Copy Pre-Model Config to Training Folder
 
 ```
 CUSTOM_MODEL_NAME = 'my_ssd_mobnet'
 ```
 
-#####\# 5. Update Config For Transfer Learning
+##### \# 5. Update Config For Transfer Learning
 
 ```
 All of it
 ```
 
-#####\# 7. Load Train Model From Checkpoint
+##### \# 7. Load Train Model From Checkpoint
 
 ```
 All of it
 ```
 
-#####\# 8. Detect in Real-Time
+##### \# 8. Detect in Real-Time
 
 ```
 All before cap.release
