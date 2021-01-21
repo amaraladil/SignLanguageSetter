@@ -1,0 +1,51 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-logo {
+  position: relative;
+}
+
+.nav-logo span {
+  position: absolute;
+  left: 1px;
+  bottom: 10px;
+  font-weight: 600;
+  padding: 0 5px 0 5px;
+  background-color: rgba(37, 37, 37, 0.5);
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.nav img {
+  height: 130px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .nav img {
+    height: 100px;
+  }
+  .nav-logo span {
+    font-size: 18px;
+    bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav img {
+    height: 80px;
+  }
+  .nav-logo span {
+    bottom: 0;
+  }
+}
