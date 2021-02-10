@@ -8,8 +8,8 @@ Currently has a Live Demo: [here](https://sign-language-reader.netlify.app/)
 
 ### Requirements:
 
-> NPM @ Version -- latest
-> Tensorflow
+> NPM @ Version -- latest \
+> Tensorflow \
 > Anaconda 3 @ Version -- 2019.07
 
 #### To Run on your local python anaconda, run these code on Jupyter Notebook
