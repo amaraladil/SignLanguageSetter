@@ -1,18 +1,26 @@
-# Sign Language Reader
+# Sign Language Reader ✋🤚
 
-This is created with the tensorflow library and Python. It manages to understand 5 different hand gestures and points out the accuracy with what each gesture is currently live on the webcam.
+This project is a Sign Language Reader that utilizes TensorFlow and Python to interpret 5 different hand gestures in real-time via a webcam feed. The AI model identifies each gesture and displays the accuracy of its prediction live.
 
-The website demo has some issues when converting it to support a website, python is best to see it's full potential.
+The model was trained using TensorFlow and then exported to JSON for integration with a React website. While the current demo is hosted online, it performs optimally when run locally in Python due to limitations in converting the AI model for web deployment.
+Live Demo
 
-Currently has a Live Demo: [here](https://sign-language-reader.netlify.app/)
+Check out the live demo of the React integration [here](https://sign-language-reader.netlify.app/).
+## Features
 
-### Requirements:
+  + Real-Time Gesture Detection: Recognizes 5 hand gestures and displays the prediction accuracy in real-time.
+  + TensorFlow-Powered AI: Leverages a custom-trained model for accurate gesture detection.
+  +  Python Backend: Full potential realized in Python for seamless operation.
+  +  React Integration: AI model exported as JSON and embedded into a React app for a web-based demo.
 
-> NPM @ Version -- latest \
-> Tensorflow \
-> Anaconda 3 @ Version -- 2019.07
+### Requirements
 
-#### To Run on your local python anaconda, run these code on Jupyter Notebook
+> Node.js: Latest version \
+> TensorFlow: Install TensorFlow \
+> Anaconda 3: Version 2019.07 or higher
+
+
+#### To Run on your local python anaconda, run these code on Jupyter Notebook or any other similar notebooks
 
 Inside ModelTrainer.ipynb
 
@@ -55,3 +63,14 @@ All before cap.release
 ```
 
 Doing all of these lines will run the trained model locally.
+
+## Future Improvements
+
+    Model Optimization for Web: Enhancing performance for web demos.
+    More Gestures: Expanding the model to support additional hand gestures.
+    Mobile Support: Adapting the model for mobile devices.
+
+Feel free to fork, star ⭐, or contribute to this project! If you encounter any issues or have questions, please open an issue.
+
+Author: Amar Al-Adil
+
